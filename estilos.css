@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+}
+
+.menu_game {
+    margin: 0;
+    background: #dedede;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+
+nav {
+    display: flex;
+    background: black;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+             
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: white;
+}
+
+
+footer {
+  height: 66px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  border-top: 30px solid #17a2b8;
+  
+}
+
+
+footer p { 
+  color: white;
+  margin-top: 30px;
+  
+  
+ 
+}
+
+  .gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+  }
+
+  .color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: left;
+  }
+
+  .celeste {
+    background: #22a6b3;
+  }
+
+  .celeste.light {
+    background: #7ed6df;
+  }
+
+  .violeta {
+    background: #be2edd;
+  }
+
+  .violeta.light {
+    background: #e056fd;
+  }
+
+  .naranja {
+    background: #f0932b;
+  }
+
+  .naranja.light {
+    background: #ffbe76;
+  }
+
+  .verde {
+    background: #6ab04c;
+  }
+
+  .verde.light {
+    background: #badc58;
+  }
+
+  .btn-start {
+    width: 400px;
+    height: 84.5px;
+    background: #ecc0be;
+    color: white;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(60% - 50px);
+    left: calc(50% - 200px);
+    border-radius: 10px;
+    border-color: #ecc0be;
+    
+  }
+
+  .hide {
+    display: none;
+  }
+
+  * {
+      font-family: 'Arial';
+  }
+
+  @media screen and (max-width: 767px) {
+    
+  }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruleta say</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<nav class="container">
+        <div class="letras">
+            <h1> <strong>FreeGame</strong> </h1>
+        </div>
+        <div class="header_menu">            
+                <ul>
+                    <li>
+                        <a href="">Perfil</a>
+                    </li>
+                    <li>
+                        <a href="">Juegos</a>
+                    </li>
+                    <li>
+                        <a href="">Categoría</a>
+                    </li>
+                </ul>               
+        </div>
+    </nav>
+    <div class="menu_game">
+   <div class="container_1">
+        <section class="sound_frecuencia">
+            <audio id="sound_do" src="sound/do.wav"></audio>
+            <audio id="sound_re" src="sound/re.wav"></audio>
+            <audio id="sound_mi" src="sound/mi.wav"></audio>
+            <audio id="sound_fa" src="sound/fa.wav"></audio>
+        </section>
+   </div>
+
+    <div class="gameboard">
+        <div id="celeste" class="color celeste left" data-color="celeste"></div>
+        <div id="violeta" class="color violeta right" data-color="violeta"></div>
+        <div id="naranja" class="color naranja left" data-color="naranja"></div>
+        <div id="verde" class="color verde right" data-color="verde"></div>
+        <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
+      </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="ruleta.js"></script>
+
+</div>
+        <footer>
+            <p>Copyright © 2020 Ruleta Say 😃.</p>
+        </footer>
+</body>
+</html>
